@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+/*Header*/
+nav.header {
+    display: flex;
+    background-color: #1f2937;
+    text-align: right;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 35px;
+    padding: 5px 200px;
+}
+img.logo {
+    margin-right: auto;
+    height: 24px;
+}
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+/*Hero*/
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 125px 200px;
+    color: #E5E7EB;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+.broda {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: flex-end;
+}
+.broda img {
+    height: 400px;
+    width: 400px;
+}
+.intro button {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 7px;
+    border: 1px;    
+}
+/*Information*/
+.theway {
+    display: flex;
+    flex-direction: column;
+    color: #1f2937;
+    padding: 25px 300px;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    align-self: center;
+}
+.books {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 254px;
+}
+.book img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 2px solid #3882f6; 
+    border-radius: 8px; 
+}
+/*Quote*/
+.quotes {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 125px 300px 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote,
+.testimonial {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;    
+}
+.profession,
+.bestfriend {
+    text-align: right;
+    font-size: 22px;
+    font-weight: 900;
+}
+.testimonial a{
+    text-decoration: none;  
+    color: #3882f6;
+}
+.bestfriend {
+    margin-bottom: 100px;
+}
+/*Call to action*/
+
+.signupbox {
+    display: flex;
+    margin: 200px 200px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 7px;
+    padding: 30px 120px;
+    
+}
+.call {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.signupbox button {
+    margin-left: auto;
+    align-self: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 7px;
+    border: 1px solid #E5E7EB;    
+}
+/*Footer*/
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 15px 0;
+   
+}
+
+ 
+
+
+
+
+
+
