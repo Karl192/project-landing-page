@@ -146,19 +146,19 @@ h3 {
     align-self: center;
     background-color: #3882f6;
     color: #E5E7EB;
-    width: 180px;
+    width: 140px;
     height: 40px;
     font-size: 18px;
     font-weight: 900;
     border-radius: 7px;
-    border: 1px solid #E5E7EB;    
+    border: 3px solid #E5E7EB;    
 }
 /*Footer*/
 .footer {
     background-color: #1f2937;
     text-align: center;
     color: #E5E7EB;
-    padding: 15px 0;
+    padding: 60px 0;
    
 }
 
